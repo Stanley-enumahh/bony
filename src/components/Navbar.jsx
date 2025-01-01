@@ -186,7 +186,10 @@ export default function Navbar() {
           {/* mobile nav end*/}
 
           <ul className="md:justify-start justify-center flex flex-row gap-6">
-            <li className="flex w-[60px] h-[60px] justify-center items-center bg-[#6F6E6E] rounded-xl  shadow-obj border border-black">
+            <li
+              onClick={toggleIsIpen}
+              className="flex w-[60px] h-[60px] justify-center items-center bg-[#6F6E6E] rounded-xl  shadow-obj border border-black"
+            >
               <a
                 href="https://x.com/bonyonxrp"
                 className="items-center justify-center"
@@ -194,7 +197,10 @@ export default function Navbar() {
                 <RiTwitterXLine size={45} className="text-white" />
               </a>
             </li>
-            <li className="flex w-[60px] h-[60px] justify-center items-center bg-[#6F6E6E] rounded-xl  shadow-obj border border-black">
+            <li
+              onClick={toggleIsIpen}
+              className="flex w-[60px] h-[60px] justify-center items-center bg-[#6F6E6E] rounded-xl  shadow-obj border border-black"
+            >
               <a
                 href="https://t.me/+9RUz_a88QblkM2Ex"
                 className="items-center justify-center"
@@ -202,7 +208,10 @@ export default function Navbar() {
                 <FaTelegramPlane size={45} className="text-white" />
               </a>
             </li>
-            <li className="flex w-[60px] h-[60px] justify-center items-center bg-[#6F6E6E] rounded-xl  shadow-obj border border-black">
+            <li
+              onClick={toggleIsIpen}
+              className="flex w-[60px] h-[60px] justify-center items-center bg-[#6F6E6E] rounded-xl  shadow-obj border border-black"
+            >
               <a className="items-center justify-center" href="#">
                 <img src={EagleLogo} alt="" className="rotate-[-16deg]" />
               </a>
