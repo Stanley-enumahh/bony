@@ -25,7 +25,7 @@ const howToBuyArray = [
 
 export default function HowToBuy() {
   const [textToCopy, setTextToCopy] = useState(
-    "CA: 0x37E14058582594FEB08824b81c7E5810576b5306"
+    "0x37E14058582594FEB08824b81c7E5810576b5306"
   );
   const [copied, setCopied] = useState(false);
 
