@@ -57,7 +57,7 @@ export default function HowToBuy() {
         </ul>
       </div>
       <div className="flex w-[95%] md:w-[55%] rotate-[-1deg] bg-white justify-end items-center mt-6 rounded-[60px] md:rounded-xl navbar-shadow">
-        <span className="md:px-10 px-4 justify-center items-center py-5 md:py-3 flex flex-row md:flex-row gap-2 md:gap-10 w-full">
+        <span className="md:px-10 px-4 justify-center items-center py-2 md:py-3 flex flex-row md:flex-row gap-2 md:gap-10 w-full">
           <p className="font-bold text-center text-nowrap text-[7px] md:text-lg font-jellee">
             {textToCopy}
           </p>
@@ -73,7 +73,7 @@ export default function HowToBuy() {
         <span className="flex bg-white px-12 md:px-10 py-3 justify-center rounded-[36px]  md:rounded-xl navbar-shadow">
           <a
             href="https://firstledger.net/"
-            className="bg-[#6f6e6e] md:ml-[40px] shadow-obj text-white px-6 py-2 md:py-3 hover:bg-opacity-80 border border-black md:rounded-md rounded-[26px] font-bold"
+            className="bg-[#6f6e6e] md:ml-[40px] shadow-obj text-white px-6 py-2 md:py-3 hover:bg-opacity-80 border text-xs border-black md:rounded-md rounded-[26px] font-bold"
           >
             Buy now
           </a>
