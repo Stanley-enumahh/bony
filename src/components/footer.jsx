@@ -7,7 +7,7 @@ export default function Footer() {
         Fill Up Your Bags and let’s ride to the moon
       </h1>
       <img src={banner} alt="" className="object-cover" />
-      <span className="h-[30px] md:h-[50px] bg-transparent font-jellee flex justify-center items-center text-white text-sm">
+      <span className="h-[30px] md:h-[50px] bg-transparent font-jellee flex justify-center items-center text-neutral-300 text-xs md:text-sm">
         All Rights Reserved - 2024 Puff Boxx LLC
       </span>
     </div>

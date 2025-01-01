@@ -9,7 +9,7 @@ export default function Tecknomics() {
       <img
         src={bony2}
         alt=""
-        className="md:h-[426px] h-[200px] md:w-[256px] absolute bottom-0 md:bottom-1 md:left-0 left-[-10px] object-cover"
+        className="md:h-[426px] h-[200px] md:w-[256px] absolute bottom-0 md:bottom-1 md:left-0 left-[-16px] object-cover"
       />
       <h1 className="text-4xl md:text-6xl text-white font-bold mt-[30px] md:mt-[60px] font-mailray HIB">
         TOKENOMICS

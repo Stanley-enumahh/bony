@@ -22,7 +22,7 @@ export default function Navbar() {
           alt=""
           className="md:w-[60px] w-[30px] h-[30px] md:h-[60px] object-cover"
         />
-        <h1 className="font-mailray bony-logo-text text-white text-2xl font-bold md:hidden flex">
+        <h1 className="font-mailray mr-3 bony-logo-text text-white text-2xl font-bold md:hidden flex">
           $Bony
         </h1>
         <nav className="flex items-center ">
