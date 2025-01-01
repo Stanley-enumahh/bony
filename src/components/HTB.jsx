@@ -8,7 +8,7 @@ const howToBuyArray = [
   {
     Image: walletIcon2,
     title: "CREATE A WALLET",
-    info: "Download and set up a compatible XRP wallet, such as Exodus or Xaman.",
+    info: "Download and set up a compatible XRP wallet, such as First Ledger or Xaman.",
   },
   {
     Image: walletIcon,
