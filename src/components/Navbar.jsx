@@ -16,14 +16,16 @@ export default function Navbar() {
   const handleSetActive = (to) => {};
   return (
     <div className="flex justify-center items-center w-full top-0">
-      <div className=" flex flex-row px-10 w-[90%] mt-6 py-4 justify-between items-center bg-white h-fit rounded-lg navbar-shadow">
+      <div className=" flex flex-row px-6 md:px-10 w-[90%] mt-6 py-4 justify-between items-center bg-white h-fit rounded-lg navbar-shadow">
         <img
           src={Logo}
           alt=""
           className="md:w-[60px] w-[30px] h-[30px] md:h-[60px] object-cover"
         />
-
-        <nav className="flex items-center">
+        <h1 className="font-mailray bony-logo-text text-white text-2xl font-bold md:hidden flex">
+          $Bony
+        </h1>
+        <nav className="flex items-center ">
           <ul className=" md:flex hidden font-jellee flex-row font-extrabold gap-6 text-xl">
             <Link
               className="cursor-pointer hover:text-gray-700 transition-all duration-200"
@@ -76,19 +78,20 @@ export default function Navbar() {
               FAQs
             </Link>
           </ul>
+
           {isOpen ? (
             <FaXmark
               onClick={toggleIsIpen}
               className={`${
                 isOpen ? "mb-8" : ""
-              }  md:hidden  flex absolute text-xl text-white z-50 `}
+              }  md:hidden right-10 flex absolute text-xl text-white z-50 `}
             />
           ) : (
             <RxHamburgerMenu
               onClick={toggleIsIpen}
               className={`${
                 isOpen ? "mb-8" : ""
-              }  md:hidden  flex absolute text-xl text-black z-50 `}
+              }  md:hidden right-10 flex absolute text-xl text-black z-50 `}
             />
           )}
         </nav>

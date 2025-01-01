@@ -40,7 +40,7 @@ export default function BonySlider() {
     ],
   };
   return (
-    <div className="bg-[#D9D9D9] h-[60px] md:h-[136px] w-full justify-center items-center">
+    <div className="bg-[#D9D9D9] h-[60px] md:h-[130px] w-full justify-center items-center">
       <Slider {...settings}>
         <li className="md:text-6xl text-2xl bony-slider-text font-mailray mt-4 md:mt-10 font-bold text-white">
           $Bony
