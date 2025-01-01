@@ -26,7 +26,7 @@ export default function Navbar() {
         <nav className="flex items-center">
           <ul className=" md:flex hidden font-jellee flex-row font-extrabold gap-6 text-xl">
             <Link
-              className="cursor-pointer"
+              className="cursor-pointer hover:text-gray-700 transition-all duration-200"
               activeClass="active"
               to="AboutUs"
               spy={true}
@@ -39,7 +39,7 @@ export default function Navbar() {
             </Link>
 
             <Link
-              className="cursor-pointer"
+              className="cursor-pointer hover:text-gray-700 transition-all duration-200"
               activeClass="active"
               to="HowtoBuy"
               spy={true}
@@ -52,7 +52,7 @@ export default function Navbar() {
             </Link>
 
             <Link
-              className="cursor-pointer"
+              className="cursor-pointer hover:text-gray-700 transition-all duration-200"
               activeClass="active"
               to="Tokenomics"
               spy={true}
@@ -64,7 +64,7 @@ export default function Navbar() {
               Tokenomics
             </Link>
             <Link
-              className="cursor-pointer"
+              className="cursor-pointer hover:text-gray-700 transition-all duration-200"
               activeClass="active"
               to="HowtoBuy"
               spy={true}
@@ -79,12 +79,16 @@ export default function Navbar() {
           {isOpen ? (
             <FaXmark
               onClick={toggleIsIpen}
-              className=" md:hidden flex absolute text-xl text-white z-50"
+              className={`${
+                isOpen ? "mb-8" : ""
+              }  md:hidden  flex absolute text-xl text-white z-50 `}
             />
           ) : (
             <RxHamburgerMenu
               onClick={toggleIsIpen}
-              className="md:hidden flex absolute text-xl"
+              className={`${
+                isOpen ? "mb-8" : ""
+              }  md:hidden  flex absolute text-xl text-black z-50 `}
             />
           )}
         </nav>
@@ -115,8 +119,8 @@ export default function Navbar() {
 
         {/* mobile nav start*/}
         <nav
-          className={` bg-black absolute transition-all duration-200 top-0 left-0 justify-center h-[300px] flex flex-col w-full gap-6 md:hidden ${
-            isOpen ? "top-0" : "top-[-300%]"
+          className={` bg-[#1E1E1E] absolute z-30 transition-all duration-200 top-0 left-0 justify-center h-[300px] flex flex-col w-full gap-6 md:hidden ${
+            isOpen ? "top-0 pt-8" : "top-[-300%]"
           }`}
         >
           <ul className="flex md:bg-transparent text-white justify-center text-center flex-col md:flex-row font-bold gap-3 md:gap-6 text-sm md:text-xl">
