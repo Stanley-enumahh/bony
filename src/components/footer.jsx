@@ -1,4 +1,4 @@
-import banner from "../assets/$BONYBANNER1.png";
+import banner from "../assets/$BONYBANNER.jpg";
 
 export default function Footer() {
   return (
