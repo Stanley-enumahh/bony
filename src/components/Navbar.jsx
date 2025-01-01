@@ -133,6 +133,7 @@ export default function Navbar() {
               offset={-100}
               duration={700}
               onSetActive={handleSetActive}
+              onClick={toggleIsIpen}
             >
               About Us
             </Link>
@@ -146,6 +147,7 @@ export default function Navbar() {
               offset={-100}
               duration={700}
               onSetActive={handleSetActive}
+              onClick={toggleIsIpen}
             >
               How to buy
             </Link>
@@ -159,6 +161,7 @@ export default function Navbar() {
               offset={-100}
               duration={700}
               onSetActive={handleSetActive}
+              onClick={toggleIsIpen}
             >
               Tokenomics
             </Link>
@@ -171,6 +174,7 @@ export default function Navbar() {
               offset={-100}
               duration={700}
               onSetActive={handleSetActive}
+              onClick={toggleIsIpen}
             >
               FAQs
             </Link>
