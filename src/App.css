@@ -1,0 +1,29 @@
+.shadow-obj {
+  box-shadow: 3px 3px 0px black;
+}
+.navbar-shadow {
+  box-shadow: 4px 4px 0px #6f6e6e;
+}
+/* .shadow-xrp {
+  box-shadow: 4px 4px 0px #6f6e6e;
+} */
+.text-shadow {
+  text-shadow: 2px 2px 0px #454141;
+}
+.htb-shadow {
+  box-shadow: 5px 5px 0px #6f6e6e;
+}
+.bony-slider-text {
+  -webkit-text-stroke: 1px black;
+  text-shadow: 6px 6px 0px #a9a9a9;
+}
+.HIB {
+  text-shadow: 4px 4px 0px #6f6e6e;
+}
+
+.app-container {
+  width: 100%;
+  background-image: url("../src/assets/paws\ bg.png");
+  background-size: contain;
+  background-position: center;
+}

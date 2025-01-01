@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Mail Ray Stuff";
+  src: url("../src/assets/fonts/Mail Ray Stuff.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "jellee";
+  src: url("../src/assets/fonts/Jellee-Roman.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
