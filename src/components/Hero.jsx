@@ -10,7 +10,8 @@ export default function Hero() {
       <div className="flex flex-row  h-full justify-between w-[78%]">
         <div className="flex flex-col gap-12 mt-8 w-[50%] text-white">
           <h1 className="text-8xl font-mailray font-bold leading-[110px]">
-            welcome to <br /> <span className="font-mailray">$Bony</span>
+            welcome to <br />{" "}
+            <span className="font-mailray text-9xl">$Bony</span>
           </h1>
           <span className="bg-[#D9D9D9] items-center w-fit px-7 flex flex-row gap-3 py-1 rounded-lg text-black text-xl font-bold navbar-shadow ">
             <img src={Xrp} alt="" className="w-[40px]" />
@@ -24,7 +25,7 @@ export default function Hero() {
             community.
           </span>
         </div>
-        <div className="w-[40%]">
+        <div className="w-[43%]">
           <img src={CatImage} alt="" className="w-full h-full" />
         </div>
       </div>

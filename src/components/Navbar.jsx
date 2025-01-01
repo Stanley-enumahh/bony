@@ -99,7 +99,10 @@ export default function Navbar() {
             </a>
           </li>
           <li className="flex w-[60px] h-[60px] justify-center items-center bg-[#6F6E6E] rounded-xl rotate-[-12deg] shadow-obj border border-black">
-            <a className="items-center justify-center" href="#">
+            <a
+              href="https://t.me/+9RUz_a88QblkM2Ex"
+              className="items-center justify-center"
+            >
               <FaTelegramPlane size={45} className="text-white" />
             </a>
           </li>
