@@ -58,7 +58,7 @@ export default function HowToBuy() {
       </div>
       <div className="flex w-[95%] md:w-[55%] rotate-[-1deg] bg-white justify-end items-center mt-6 rounded-[60px] md:rounded-xl navbar-shadow">
         <span className="md:px-10 px-4 justify-center items-center py-5 md:py-3 flex flex-row md:flex-row gap-2 md:gap-10 w-full">
-          <p className="font-bold text-center text-nowrap text-[11px] md:text-lg font-jellee">
+          <p className="font-bold text-center text-nowrap text-[7px] md:text-lg font-jellee">
             {textToCopy}
           </p>
           <button
