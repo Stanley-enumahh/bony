@@ -107,7 +107,7 @@ export default function Navbar() {
           </li>
           <li className="flex w-[60px] h-[60px] justify-center items-center bg-[#6F6E6E] rounded-xl rotate-[-12deg] shadow-obj border border-black">
             <a
-              href="https://t.me/+9RUz_a88QblkM2Ex"
+              href="https://t.me/BonyOnXRPportal"
               className="items-center justify-center"
             >
               <FaTelegramPlane size={45} className="text-white" />
@@ -202,7 +202,7 @@ export default function Navbar() {
               className="flex w-[60px] h-[60px] justify-center items-center bg-[#6F6E6E] rounded-xl  shadow-obj border border-black"
             >
               <a
-                href="https://t.me/+9RUz_a88QblkM2Ex"
+                href="https://t.me/BonyOnXRPportal"
                 className="items-center justify-center"
               >
                 <FaTelegramPlane size={45} className="text-white" />

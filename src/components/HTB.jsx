@@ -3,6 +3,9 @@ import swapIcon from "../assets/Group19.png";
 import walletIcon2 from "../assets/wallet.png";
 import bony from "../assets/bony12.png";
 import { useState } from "react";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const howToBuyArray = [
   {
@@ -24,9 +27,10 @@ const howToBuyArray = [
 ];
 
 export default function HowToBuy() {
-  const [textToCopy, setTextToCopy] = useState(
-    "0x37E14058582594FEB08824b81c7E5810576b5306"
-  );
+  useEffect(() => {
+    AOS.init({ duration: 600, once: true }), [];
+  });
+  const [textToCopy, setTextToCopy] = useState("");
   const [copied, setCopied] = useState(false);
 
   function handleCopy() {
@@ -42,24 +46,37 @@ export default function HowToBuy() {
       className="w-full relative mt-7 mb-6 flex justify-center gap-8 items-center h-fit md:h-[800px] flex-col"
     >
       <img
+        data-aos="slide-left"
+        data-aos-duration="200"
         src={bony}
         alt=""
         className="absolute right-0 top-[580px] md:top-[350px] md:h-[450px] w-[180px] h-[250px] md:w-[280px] object-cover"
       />
-      <h1 className="text-4xl md:text-7xl font-bold text-white font-mailray HIB">
+      <h1
+        data-aos="fade-right"
+        className="text-4xl md:text-7xl font-bold text-white font-mailray HIB"
+      >
         HOW TO BUY
       </h1>
       <div className="flex justify-center w-[80%] ">
-        <ul className="flex flex-col md:flex-row md:gap-16 gap-7">
+        <ul
+          data-aos="fade-up"
+          className="flex flex-col md:flex-row md:gap-16 gap-7"
+        >
           {howToBuyArray.map((item, i) => (
             <Item key={i} item={item} />
           ))}
         </ul>
       </div>
-      <div className="flex w-[82%] md:w-[55%] rotate-[-1deg] bg-white justify-end items-center mt-6 rounded-[20px] md:rounded-xl navbar-shadow">
+      <div
+        data-aos="fade-up-left"
+        data-aos-delay="200"
+        className="flex w-[82%] md:w-[55%] rotate-[-1deg] bg-white justify-end items-center mt-6 rounded-[20px] md:rounded-xl navbar-shadow"
+      >
         <span className="md:px-10 justify-between items-center py-2 md:py-3 flex flex-row md:flex-row gap-2 md:gap-10 w-full px-6">
           <p className="font-bold text-center text-nowrap text-[7px] md:text-lg font-jellee">
-            {textToCopy}
+            CA:
+            {/* {textToCopy} */}
           </p>
           <button
             onClick={handleCopy}
@@ -70,7 +87,12 @@ export default function HowToBuy() {
         </span>
       </div>
       <div className="flex w-[55%] rotate-[-1deg] py-2  justify-end items-center bg-transparent">
-        <span className="flex bg-white px-12 md:px-10 py-3 justify-center rounded-[24px] md:rounded-xl navbar-shadow">
+        <span
+          data-aos="fade-up-left"
+          data-aos-delay="300"
+          data-aos-duration="300"
+          className="flex bg-white px-12 md:px-10 py-3 justify-center rounded-[24px] md:rounded-xl navbar-shadow"
+        >
           <a
             href="https://firstledger.net/"
             className="bg-[#6f6e6e] md:ml-[40px] shadow-obj text-white px-6 py-2 md:py-3 hover:bg-opacity-80 border text-xs border-black md:rounded-md rounded-[26px] font-bold"
