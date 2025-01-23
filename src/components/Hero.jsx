@@ -13,7 +13,7 @@ export default function Hero() {
   return (
     <div
       id="AboutUs"
-      className="flex justify-center overflow-hidden md:items-center w-full h-[390px] md:h-[680px] mt-[17px] md:mt-[50px]"
+      className="flex justify-center overflow-hidden md:items-center w-full h-[394px] md:h-[680px] mt-[17px] md:mt-[50px]"
     >
       <div className="flex flex-row h-full  justify-center w-[90%] md:w-[78%]">
         <div className="flex flex-col md:items-start items-center relative gap-24 md:gap-12 mt-4 md:mt-[60px] w-full md:w-[50%] text-white">
@@ -48,9 +48,9 @@ export default function Hero() {
             className="w-[50%] md:w-full h-[90%] object-cover"
           />
         </div>
-        <span className="bg-[#D9D9D9] top-[37%] w-fit right-11 absolute md:hidden flex justify-center items-center px-[4px] flex-row gap-1  py-1 h-fit rounded-3xl text-black text-xl navbar-shadow ">
+        <span className="bg-[#D9D9D9] top-[295px] w-fit right-9 absolute md:hidden flex justify-center items-center px-[4px] flex-row gap-1  py-1 h-fit rounded-3xl text-black text-xl navbar-shadow ">
           <img src={Xrp2} alt="" className="w-[20px] h-fit" />
-          <p className="font-mailray text-sm md:text-2xl">BUILT on XRP</p>
+          <p className="font-mailray text-xs md:text-2xl">BUILT on XRP</p>
         </span>
       </div>
     </div>

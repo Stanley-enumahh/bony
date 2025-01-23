@@ -7,6 +7,7 @@ import { FaXmark } from "react-icons/fa6";
 import { useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
 
+
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 

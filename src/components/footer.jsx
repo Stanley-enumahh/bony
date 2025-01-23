@@ -1,4 +1,5 @@
 import banner from "../assets/$BONYBANNER.jpg";
+import { TbBrandLinktree } from "react-icons/tb";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -17,8 +18,11 @@ export default function Footer() {
         Fill Up Your Bags and let’s ride to the moon
       </h1>
       <img src={banner} alt="" className="object-cover" />
-      <span className="h-[30px] md:h-[50px] bg-transparent font-jellee flex justify-center items-center text-neutral-300 text-xs md:text-sm">
-        All Rights Reserved - 2024 Puff Boxx LLC
+      <span className="h-[30px] my-4 md:h-[50px] gap-10 bg-transparent font-jellee flex justify-center items-center text-neutral-300 text-xs md:text-sm">
+        <p> All Rights Reserved - 2024 Puff Boxx LLC</p>
+        <a href="https://tr.ee/rCiAQfzYAq" className="border-2 rounded-lg p-2">
+          <TbBrandLinktree className=" text-sm" />
+        </a>
       </span>
     </div>
   );

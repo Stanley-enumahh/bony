@@ -30,7 +30,9 @@ export default function HowToBuy() {
   useEffect(() => {
     AOS.init({ duration: 600, once: true }), [];
   });
-  const [textToCopy, setTextToCopy] = useState("");
+  const [textToCopy, setTextToCopy] = useState(
+    "rN8FMP9BiE4cwTdwo7cU3vDzh6zQhZxRth"
+  );
   const [copied, setCopied] = useState(false);
 
   function handleCopy() {
@@ -76,7 +78,7 @@ export default function HowToBuy() {
         <span className="md:px-10 justify-between items-center py-2 md:py-3 flex flex-row md:flex-row gap-2 md:gap-10 w-full px-6">
           <p className="font-bold text-center text-nowrap text-[7px] md:text-lg font-jellee">
             CA:
-            {/* {textToCopy} */}
+            {textToCopy}
           </p>
           <button
             onClick={handleCopy}
